@@ -1,0 +1,24 @@
+﻿  Lab4_Fibonacci.cpp
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\fibonacci.h(24): error C2065: string: необъявленный идентификатор
+  e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\fibonacci.h(69): note: см. ссылку на создание экземпляров класса шаблон при компиляции "fibonacci<T>"
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\fibonacci.h(24): error C2923: fibonacci: "string" не является допустимым аргументом типа шаблон для параметра "T"
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\fibonacci.h(24): error C2535: fibonacci<T>::fibonacci(int): функция-член уже определена или объявлена
+  e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\fibonacci.h(19): note:  см. объявление "fibonacci<T>::fibonacci"
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\fibonacci.h(72): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\fibonacci.h(111): note: см. ссылку на создание экземпляров класса шаблон при компиляции "fib_iterator<T>"
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\fibonacci.h(24): error C2062: тип "int" не требуется
+  e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\lab4_fibonacci.cpp(12): note: см. ссылку на создание экземпляров класса шаблон при компиляции "fibonacci<int>"
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\fibonacci.h(24): error C2334: непредвиденные лексемы перед "{"; пропуск вероятного тела функции
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\lab4_fibonacci.cpp(13): error C2451: недопустимое условное выражение типа "fib_iterator<T>"
+          with
+          [
+              T=int
+          ]
+  e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\lab4_fibonacci.cpp(13): note: Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\lab4_fibonacci.cpp(13): error C2676: бинарный "++": "fib_iterator<T>" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+          with
+          [
+              T=int
+          ]
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\lab4_fibonacci.cpp(15): error C2100: недопустимое косвенное обращение
+e:\2 курс\ооп\lab4_fibonacci\lab4_fibonacci\lab4_fibonacci.cpp(15): error C2088: <<: недопустимо для class
